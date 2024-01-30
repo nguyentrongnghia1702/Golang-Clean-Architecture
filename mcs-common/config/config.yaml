@@ -1,0 +1,15 @@
+version: 1.0.0
+Logging:
+  stdout: true
+  level: debug
+  path: applog.log
+Server:
+  port: :8080
+  context-path: /is/v1
+  context-timeout: 2
+database:
+  host: '172.20.80.1'
+  port: 3306
+  username: 'wsl_root'
+  password: 'password'
+  name: 'todoDB'

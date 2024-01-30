@@ -1,0 +1,4 @@
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on localhost:8080
+127.0.0.1 - [Tue, 23 Jan 2024 11:53:59 +07] "POST /api/v1/amount/cut HTTP/1.1 200 361.376µs "PostmanRuntime/7.36.1" "
